@@ -6,6 +6,10 @@
 body{
     background-color: gray;
     padding: 10px;
+    background-image: url("../img/fondopagina.jpg"); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen */
+    background-position: center; 
+
 }
 .contenedor{
     display:grid;
@@ -16,6 +20,9 @@ body{
 }
 .text{
     padding: 20px;
+    background-image: url('../img/fondoparrafo.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen */
+    background-position: center; 
 }
 .menu li{
     list-style: none;
@@ -69,8 +76,7 @@ header,footer{
     padding:10px;
 }
 .text{
-    text-align: justify;
-    
+    text-align: justify;  
 }
 /*.image{
     
